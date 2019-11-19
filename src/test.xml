@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<people>
+    <student level="一年级">
+        <name>test1</name>
+        <gender>男</gender>
+        <id>1</id>
+    </student>
+    <student level="二年级">
+        <name>test1</name>
+        <gender>女</gender>
+        <id>2</id>
+    </student>
+    <student level="三年级">
+        <name>test1</name>
+        <gender>女</gender>
+        <id>3</id>
+    </student>
+</people>
