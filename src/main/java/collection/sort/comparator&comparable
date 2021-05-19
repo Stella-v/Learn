@@ -1,0 +1,10 @@
+comparator和comparable的区别：
+1、Comparator接口位于java.util包下，而Comparable借款方位于java.lang包下
+2、对于Comparator接口，可以看到它的compare()方法的参数是两个对象。
+   对于Comparable接口，他的方法只有一个对象作为参数，所以要比较的类需要实现Comparable接口，将当前对象与方法参数中的对象进行比较。
+   因此，如果使用Comparator接口，那么要比较的类和实现Comparator接口的类可以分开，如果使用Comparable接口，那么要比较的类就要实现Comparable接口才可以。
+
+3.关于应用场景
+   一般情况下，对某个类进行排序，比如Cat类，如果使用Comparable接口，那么Cat类需要实现Comparable接口。
+   如果Cat类已经通过Comparable，按name升序排序了。而此时我们还希望通过age进行排序，这时不希望修改Cat类，就可以使用Campatator接口了
+   因此，Comparable可以作为实现类的默认排序算法，Comparator接口则用于一个类的拓展排序
